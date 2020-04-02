@@ -1,0 +1,121 @@
+.container
+      {
+      	display: flex;
+      	flex-direction: column;
+      	width: 414px;
+      	height: 736px;
+      	text-align: center;
+      	padding-top: 10px;
+      	padding-right: center;
+      	margin: 0 auto;
+      	background-size: cover;
+      	background-position: 27% 50%;
+        background-image: url("./mars-bk2.jpg");
+        font-family: "Comic Sans MS", cursive, sans-serif;
+      }
+
+      .App
+      {
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+   
+
+
+      .App a
+      {
+        color: #55A4CA;
+        padding: 14px 5px;
+        text-decoration: none;
+        font-size: 30px;
+        display: block;
+        background: white;
+
+      }
+
+      a.iconMenu
+      {
+        background: url("./hamburgerIMG.png") no-repeat;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 12px;
+        height: 45px;
+        width: 50px;
+
+      }
+      #menuItems a {color: #55A4CA;
+        padding: 3.1px 0px;
+        text-decoration: none;
+        font-size: 30px;
+        display: block;
+        background: white;}
+
+      #menuItems a:hover
+      {
+        color: red;
+        border-style: outset;
+      }
+
+      #menuItems
+      {
+        background: black;
+        opacity: 0.5;
+      }
+
+
+      .dataPanel
+      {
+        position: relative;
+        height: 400px;
+        width: 93px;
+        background: silver;
+        opacity: 1;
+        padding-bottom: 7px;
+        right: 15px;
+        left: 300px;
+        top: 25px;
+      }
+
+      .dataSegment
+      {
+        border: 2px solid #55A4CA;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        padding: 10px 10px;
+        margin: 30px 15px;
+        top: 5px;
+      }
+      #tempH
+      {background: url("./tempH.jpg") no-repeat;}
+      #tempL
+      {background: url("./tempL.jpg") no-repeat;}
+      #airP
+      {background: url("./airP.jpg") no-repeat;}
+      #windS
+      {background: url("./windSpeed.jpg") no-repeat;}
+      b{color: red;}
+      .date
+      {
+        color: white; 
+        position: absolute;
+        top: 700px;
+        left: 394px;
+      }
+      .dataVal
+      {
+        position: relative;
+        left: 140px;
+        bottom: 310px;
+      }
+      h3 
+      {
+        position: absolute;
+        color: rgb(10, 147, 231);
+        top: -14px;
+        left: 8px;
+        font-weight: bolder;
+      }
